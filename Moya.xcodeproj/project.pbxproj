@@ -91,6 +91,7 @@
 		492F83CA1DED981F00C79972 /* SignalProducer+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F83C01DED97F100C79972 /* SignalProducer+Response.swift */; };
 		492F83CB1DED982000C79972 /* SignalProducer+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F83C01DED97F100C79972 /* SignalProducer+Response.swift */; };
 		492F83CC1DED982000C79972 /* SignalProducer+Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F83C01DED97F100C79972 /* SignalProducer+Response.swift */; };
+		499B2E3A1E1AE2AA00543043 /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499B2E391E1AE2AA00543043 /* Availability.swift */; };
 		554B100F1BE7EEA500F3D266 /* Moya.h in Headers */ = {isa = PBXBuildFile; fileRef = 0630A3021BE1C60200AD4789 /* Moya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		554B10101BE7EEAD00F3D266 /* ReactiveMoya.h in Headers */ = {isa = PBXBuildFile; fileRef = 0630A3031BE1C60200AD4789 /* ReactiveMoya.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		554B10111BE7EEB000F3D266 /* RxMoya.h in Headers */ = {isa = PBXBuildFile; fileRef = 0630A3041BE1C60200AD4789 /* RxMoya.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -155,6 +156,7 @@
 		3BCBBDCA1E15A48400F53224 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
 		492F83BF1DED97F100C79972 /* ReactiveSwiftMoyaProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReactiveSwiftMoyaProvider.swift; path = Source/ReactiveSwift/ReactiveSwiftMoyaProvider.swift; sourceTree = SOURCE_ROOT; };
 		492F83C01DED97F100C79972 /* SignalProducer+Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SignalProducer+Response.swift"; path = "Source/ReactiveSwift/SignalProducer+Response.swift"; sourceTree = SOURCE_ROOT; };
+		499B2E391E1AE2AA00543043 /* Availability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
 		554B0FB91BE7ED4D00F3D266 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554B0FC91BE7ED7C00F3D266 /* ReactiveMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReactiveMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		554B0FD31BE7ED8700F3D266 /* RxMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,6 +308,7 @@
 		0676A5D31BFE80D3001C7F55 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				499B2E391E1AE2AA00543043 /* Availability.swift */,
 				0676A5D41BFE80D3001C7F55 /* Endpoint.swift */,
 				0676A5D51BFE80D3001C7F55 /* Error.swift */,
 				0676A5D61BFE80D3001C7F55 /* Image.swift */,
@@ -931,6 +934,7 @@
 				0676A5E61BFE80D3001C7F55 /* Endpoint.swift in Sources */,
 				0676A6221BFE80D3001C7F55 /* CredentialsPlugin.swift in Sources */,
 				3BCBBDCB1E15A48400F53224 /* MultipartFormData.swift in Sources */,
+				499B2E3A1E1AE2AA00543043 /* Availability.swift in Sources */,
 				5E5FA8C81D4462FB00ED49AF /* Cancellable.swift in Sources */,
 				5E5FA8CA1D4462FB00ED49AF /* MoyaProvider+Internal.swift in Sources */,
 				0676A63A1BFE80D3001C7F55 /* NetworkLoggerPlugin.swift in Sources */,
