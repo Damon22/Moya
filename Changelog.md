@@ -6,6 +6,7 @@
 - `Moya.Error` now conforms to `LocalizedError` protocol.
 - Added documentation for `TargetType` and associated data structures.
 - Re-add `MultiTarget` to project.
+- Added availability tags for renamed functions included in the Swift 3 migration.
 
 # 8.0.0-beta.6
 
